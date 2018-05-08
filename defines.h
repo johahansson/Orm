@@ -37,5 +37,3 @@ typedef struct {
 #define LCD_SET_PAGE 	0xB8 // Set vertical coordinate
 #define LCD_DISP_START 	0xC0 // Start address
 #define LCD_BUSY 		0x80 // Read busy status
-
-#define MAX_POINTS		20

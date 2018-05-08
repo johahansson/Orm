@@ -1,1 +1,1 @@
-./Debug/graphics.c.o ./Debug/startup.c.o   
+./Debug/ball.c.o ./Debug/keypad.c.o ./Debug/graphics.c.o ./Debug/startup.c.o ./Debug/delays.c.o   

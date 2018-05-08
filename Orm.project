@@ -20,6 +20,12 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="ball.h"/>
+    <File Name="ball.c"/>
+    <File Name="keypad.h"/>
+    <File Name="keypad.c"/>
+    <File Name="delays.h"/>
+    <File Name="delays.c"/>
     <File Name="defines.h"/>
     <File Name="graphics.c"/>
     <File Name="graphics.h"/>
