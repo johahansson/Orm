@@ -20,6 +20,9 @@
   <Description/>
   <Dependencies/>
   <VirtualDirectory Name="src">
+    <File Name="defines.h"/>
+    <File Name="graphics.c"/>
+    <File Name="graphics.h"/>
     <File Name="startup.c"/>
   </VirtualDirectory>
   <VirtualDirectory Name="resources">
