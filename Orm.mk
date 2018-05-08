@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=Orm
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/johan/Documents/Git/Orm
-ProjectPath            :=C:/Users/johan/Documents/Git/Orm
+WorkspacePath          :=C:/Users/johan/google_drive/Programmering/Git/Orm
+ProjectPath            :=C:/Users/johan/google_drive/Programmering/Git/Orm
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -104,7 +104,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/startup.c$(ObjectSuffix): startup.c $(IntermediateDirectory)/startup.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/johan/Documents/Git/Orm/startup.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/startup.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/johan/google_drive/Programmering/Git/Orm/startup.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/startup.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/startup.c$(DependSuffix): startup.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/startup.c$(ObjectSuffix) -MF$(IntermediateDirectory)/startup.c$(DependSuffix) -MM startup.c
 
