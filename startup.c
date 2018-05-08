@@ -314,13 +314,13 @@ void delay_micro(unsigned int us) {
 }
 
 void delay_milli(unsigned int ms) {
-	#ifdef SIMULATOR
+//	#ifdef SIMULATOR
 		while( ms-- )
 			delay_micro(1);
-	#else
-		while( ms-- )
-			delay_micro(1000);
-	#endif
+//	#else
+//		while( ms-- )
+//			delay_micro(1000);
+//	#endif
 }
 
 void init_app(void) {
@@ -354,7 +354,7 @@ void main(void) {
 	init_app();
 	graphic_initialize();
 #ifndef SIMULATOR
-	graphic_clear_screen();
+	//graphic_clear_screen();
 #endif
 	p->set_speed(p, 4, 1);
 	while(1) {
